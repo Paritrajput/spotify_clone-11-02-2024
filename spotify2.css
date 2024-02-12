@@ -867,7 +867,6 @@ visibility:visible;
    bottom: 0;
    position: absolute;
 }
-
 .language_boxes{
     display: flex;
     flex-direction: column;
@@ -887,6 +886,10 @@ visibility:visible;
 .language_boxes :first-child{
     color:rgba(255, 255, 255, 0.993);
     
+}
+.language_boxes:hover{
+    background-color: #464646;
+    text-decoration: none;
 }
 .info{
     display: flex;
